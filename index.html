@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See Your Future</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff69b4, #1e90ff); /* Gradient from pink to blue */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        
+h1 {
+    color: transparent; /* Make text color transparent to see the gradient */
+    background: linear-gradient(135deg, #ff69b4, #1e90ff); /* Gradient from pink to blue */
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    background-clip: text;
+    font-size: 36px;
+    font-weight: bold;
+}
+        input {
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #ddd;
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff69b4;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff1493; /* Darker garliant color on hover */
+        }
+
+        #futureMessage {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Your Name to See Your Future</h1>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+      <button onclick="location.href='main.html'">Enter</button>
+    </div>
+ 
+</body>
+</html>
